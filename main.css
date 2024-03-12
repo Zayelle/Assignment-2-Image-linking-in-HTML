@@ -1,0 +1,61 @@
+        html   {
+              font-size: 15px;
+               }
+
+        body   {
+              font-family: Arial,sans-serif;
+              margin: 0;
+              padding: 0;
+               }
+
+        header {
+               background-color: plum;
+               color: black;
+               padding: 2px;
+               text-align: center;
+               }
+
+        nav    {
+               background-color:plum;
+               padding: 2px;
+               text-align: left;
+               }
+
+        section {
+            padding: 2px; ;
+                }
+
+         .Welcome-Message {
+                text-align: center;
+                margin-bottom: 2px;
+                          }
+           
+        .technology img   {
+                display: grid;
+                grid-template-columns:repeat(3, 1fr);
+                margin:0 auto;
+                max-width: 100;
+                height:auto
+                          }
+
+             .gallery     {
+                display:grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 5px;
+                          }  
+                
+             .gallery img {
+                 width: 100%;
+                 height:auto
+                          }
+
+              .menu       {
+                 list-style-type: none;
+                 padding: 0;
+                 text-align:left;
+                          } 
+
+             .menu li     {
+                margin-bottom: 2px;
+                          } 
+
